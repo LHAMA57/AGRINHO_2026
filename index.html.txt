@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Aprenda Web Dev</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>💻 Jornada do Desenvolvedor</h1>
+
+<p>
+Aprenda como um site é construído através de desafios interativos
+</p>
+
+</header>
+
+
+
+<main>
+
+
+<section class="intro">
+
+<h2>🚀 Flashcards Interativos</h2>
+
+<p>
+Clique nos cartões para revelar a resposta.
+</p>
+
+</section>
+
+
+
+<section class="cards">
+
+
+
+<div class="card" onclick="mostrar(this)">
+
+<div class="pergunta">
+
+O que é HTML?
+
+</div>
+
+
+<div class="resposta">
+
+HTML é a estrutura da página.
+Ele cria títulos, textos, imagens e elementos.
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="card" onclick="mostrar(this)">
+
+<div class="pergunta">
+
+Para que serve o CSS?
+
+</div>
+
+
+<div class="resposta">
+
+CSS é responsável pelo visual:
+cores, tamanhos, posições e animações.
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="card" onclick="mostrar(this)">
+
+<div class="pergunta">
+
+Qual a função do JavaScript?
+
+</div>
+
+
+<div class="resposta">
+
+JavaScript adiciona interação:
+botões, movimentos e lógica.
+
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="card" onclick="mostrar(this)">
+
+<div class="pergunta">
+
+O que é um arquivo index.html?
+
+</div>
+
+
+<div class="resposta">
+
+É geralmente a página principal de um site.
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+<div class="card" onclick="mostrar(this)">
+
+<div class="pergunta">
+
+Por que separar HTML, CSS e JS?
+
+</div>
+
+
+<div class="resposta">
+
+Para deixar o projeto organizado,
+facilitando alterações e manutenção.
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card" onclick="mostrar(this)">
+
+<div class="pergunta">
+
+Como um site fica online?
+
+</div>
+
+
+<div class="resposta">
+
+Ele pode ser publicado usando serviços como GitHub Pages.
+
+</div>
+
+</div>
+
+
+
+</section>
+
+
+
+</main>
+
+
+
+
+<footer>
+
+<p>
+🌱 Projeto educativo - Construção de páginas web
+</p>
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+
+</html>
